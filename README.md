@@ -8,6 +8,7 @@ Prefereby use on a Kali Linux Distro
 <p align="center">
 <img align="center" src="scanner.png" width="900">
 </p>
+
 ## Installation 💿
 
 1. Download this repo:
