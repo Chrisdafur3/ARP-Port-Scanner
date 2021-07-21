@@ -31,6 +31,7 @@ Prefereby use on a Kali Linux Distro
 5. Portscans can also have the `-pl` `-pr` arguments followed by the desired ports eg. `python main.py <ip address> -pl 443,90,23 -pr 100-140`
 6. The `-portscan` `-arpscan` arguments can be used to automatically run the scripts from the command-line eg. 
    `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan` or `python main.py <ip range> -arpscan`
+7. `-f` `--file` is used to save results to a file eg. `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan -f` or `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan --file`
    
 ## Repos used 📝
 [Scapy](https://github.com/secdev/scapy)
