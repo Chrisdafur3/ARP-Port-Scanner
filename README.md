@@ -32,7 +32,9 @@ Prefereby use on a Kali Linux Distro
 6. The `-portscan` `-arpscan` arguments can be used to automatically run the scripts from the command-line eg. 
    `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan` or `python main.py <ip range> -arpscan`
 7. `-f` `--file` is used to save results to a file eg. `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan -f` or `python main.py <ip address> -pl 443,90,23 -pr 100-140 -portscan --file`
-   
+## Additional Information 📝
+This is a tool I created to help myself grasp a better understanding of the Scapy tool as well as object oriented programming. This Tool has a fun interactive shell that provides the ability to scan a list of ports and a range of ports at the same time it also provides the ability to scan for active IP addresses in an IP range.
+You have the ability to change the ports as well as the IP address while using the tool. This Tool uses a TCP stealth scan to scan for open and closed ports on a device to avoid port scanning detection by firewalls and also provides an option to save the results of open ports or active IP addresses to a .txt file.
 ## Repos used 📝
 [Scapy](https://github.com/secdev/scapy)
 
